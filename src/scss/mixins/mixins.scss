@@ -1,0 +1,12 @@
+@mixin base-button {
+  display: inline-block;
+  border: none;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: $white;
+  background-color: $blue;
+  border-radius: 15px;
+  cursor: pointer;
+}
