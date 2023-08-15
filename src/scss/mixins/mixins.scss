@@ -18,3 +18,25 @@
   line-height: 28px;
   color: $paragraph_color;
 }
+
+@mixin section-label {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: $blue_light;
+}
+
+@mixin section-header {
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 52px;
+  color: $black_blue;
+}
+
+@mixin section-content {
+  max-width: 560px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: $paragraph_color;
+}

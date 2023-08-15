@@ -1,0 +1,33 @@
+.promotion-steps {
+  margin-top: 10%;
+}
+
+.promotion-steps__header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 160px;
+}
+
+.promotion-steps__label {
+  @include section-label;
+  text-align: center;
+}
+
+.promotion-steps__header {
+  @include section-header;
+  text-align: center;
+}
+
+.promotion-steps__content {
+  @include section-content;
+  text-align: center;
+}
+
+.promotion-steps__container {
+  margin-top: 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

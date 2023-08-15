@@ -1,0 +1,27 @@
+.promotion-card {
+  max-width: 370px;
+}
+
+.promotion-card__svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.promotion-card__header {
+  margin-top: 2em;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: $black_blue;
+  text-align: center;
+}
+
+.promotion-card__content {
+  margin-top: 1em;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: $paragraph_color;
+  text-align: center;
+}
