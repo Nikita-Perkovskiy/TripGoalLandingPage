@@ -1,0 +1,33 @@
+.recommendation-block {
+  margin-top: 10%;
+}
+
+.recommendation-block__header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  height: 160px;
+}
+
+.recommendation-block__label {
+  @include section-label;
+  text-align: left;
+}
+
+.recommendation-block__header {
+  @include section-header;
+  text-align: left;
+}
+
+.recommendation-block__content {
+  @include section-content;
+  text-align: left;
+}
+
+.recommendation-block__content-container {
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
