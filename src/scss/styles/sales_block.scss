@@ -1,0 +1,74 @@
+.sales-block {
+  margin-top: 10%;
+  position: relative;
+  overflow: hidden;
+  background-color: $black_blue;
+  max-height: 690px;
+  height: 100rem;
+  width: 100%;
+}
+
+.sales-block__fon {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.sales-block__svg-map {
+  position: absolute;
+  top: 0;
+  left: 35%;
+  z-index: 100;
+}
+
+.sales-block__svg-compas {
+  position: absolute;
+  bottom: 5%;
+  left: 65%;
+  z-index: 100;
+}
+
+.sales-block__svg-button {
+  position: absolute;
+  top: 50%;
+  left: 16%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  cursor: pointer;
+}
+
+.sales-block__content {
+  position: absolute;
+  top: 20%;
+  left: 62%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+  padding-left: 2%;
+  max-height: 320px;
+  height: 100rem;
+  max-width: 462px;
+  width: 100rem;
+  z-index: 10000;
+}
+
+.sales-block__content-label {
+  @include section-label;
+  text-align: left;
+}
+
+.sales-block__content-header {
+  @include section-header;
+  text-align: left;
+}
+
+.sales-block__content-button {
+  padding: 3% 5% 3% 5%;
+  @include base-button;
+}
+
+.sales-block__content-text {
+  @include section-content;
+  text-align: left;
+}
