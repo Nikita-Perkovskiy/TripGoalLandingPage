@@ -1,0 +1,34 @@
+.user-reviews-block {
+  margin-top: 20%;
+}
+
+.user-reviews__header {
+  margin: auto;
+  max-height: 160px;
+  height: 100rem;
+  max-width: 620px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-reviews__header-label {
+  @include section-label;
+  text-align: center;
+}
+
+.user-reviews__header-slogo {
+  @include section-header;
+  text-align: center;
+}
+
+.user-reviews__header-content {
+  @include section-content;
+  text-align: center;
+}
+
+.user-reviews__content {
+  margin-top: 50px;
+  position: relative;
+}
