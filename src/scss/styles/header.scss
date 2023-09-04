@@ -10,11 +10,7 @@
 }
 
 .header__slogo {
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 22px;
-  color: $black_blue;
-  cursor: pointer;
+  @include logo-text;
 }
 
 .header__slogo-start {
@@ -41,11 +37,7 @@
 }
 
 .header__nav-link {
-  text-decoration: none;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 18px;
-  color: $black_blue;
+  @include nav-link;
 }
 
 .header__nav-link:hover {
